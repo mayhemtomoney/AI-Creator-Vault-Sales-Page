@@ -1933,3 +1933,106 @@ input:checked + .switch-slider::before {
   margin: 0 auto;
   padding: 0 var(--space-lg);
 }
+.hero-title {
+  font-family: 'Monoton', cursive;
+  font-size: 4.5rem;
+  color: #00ffff;
+  text-shadow:
+    0 0 16px #00ffff,
+    0 0 24px #00e6ee,
+    0 0 40px #00e6ff,
+    0 0 50px #09fafa;
+  letter-spacing: 0.08em;
+  margin: 0 0 1.2rem;
+  user-select: none;
+  line-height: 1.05;
+}
+
+.hero-subheading {
+  font-size: 1.3rem;
+  color: #e0ffff;
+  text-align: center;
+  margin: 0 auto 2.5rem;
+  max-width: 700px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.neon-glow {
+  filter: brightness(1.2) drop-shadow(0 0 15px #09fafa);
+}
+
+.btn--primary,
+.btn--secondary {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  border-radius: 12px;
+  padding: 1rem 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: 0.2s;
+  box-shadow: 0 0 32px #00ffff88;
+}
+
+.btn--primary {
+  background: linear-gradient(90deg, #00ffff 0%, #ff00c8 100%);
+  color: #0a0a0a;
+  border: none;
+}
+
+.btn--secondary {
+  background: #0a0a0a;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+}
+
+.btn--primary:hover,
+.btn--secondary:hover { box-shadow: 0 0 60px #00ffffe1; }
+
+.section-title {
+  color: #00ffff;
+  font-family: 'Monoton', cursive;
+  font-size: 2.6rem;
+  text-shadow: 0 0 16px #00ffff88;
+}
+
+.neon-bullet {
+  color: #00ffff;
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+.plan-card.pro {
+  border: 2px solid #ff00c8;
+  box-shadow: 0 0 32px #ff00c833;
+}
+
+.plan-card.core {
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 32px #00ffff33;
+}
+
+.plan-price {
+  font-size: 2rem;
+  color: #ff00c8;
+  margin: 1rem 0;
+  text-shadow: 0 0 8px #ff00c8aa;
+}
+
+.plan-annual {
+  color: #00ffff;
+  font-size: 1.1rem;
+}
+
+.discord-cta {
+  margin: 2.5rem 0 0.5rem;
+  color: #00ffff;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+}
+
+.faq-list strong {
+  color: #ff00c8;
+}
+
+/* ...KEEP YOUR EXISTING CSS FOR LAYOUT/CONTAINERS... */
